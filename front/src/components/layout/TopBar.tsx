@@ -69,7 +69,7 @@ export default function TopBar({ assistantVisible, onToggleAssistant, onGlobalSe
                 : 'text-[var(--color-quick-action-text)] bg-[var(--color-quick-action-bg)] border border-[var(--color-quick-action-border)] hover:opacity-90'
             }`}
         >
-          <img src="/avatars/xiaoyunyun.png" alt="小云云" className="w-4 h-4 rounded-full object-cover" />
+          <img src="/avatars/xiaoyiyi.png" alt="小忆" className="w-4 h-4 rounded-full object-cover" />
           <span>{t('topbar.assistant')}</span>
         </button>
         <UserAvatarMenu />

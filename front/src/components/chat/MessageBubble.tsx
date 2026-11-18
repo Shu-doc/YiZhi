@@ -97,7 +97,7 @@ export default function MessageBubble({ msg, isLast, isStreaming, userAvatar, pl
     <div className={`flex items-start gap-2 ${isUser ? 'justify-end' : 'justify-start'} ai-msg-enter`}>
       {!isUser && (
         <div className="flex-shrink-0 w-8 h-8 rounded-full overflow-hidden ring-2 ring-[#4a9eff]/15 shadow-[0_0_8px_rgba(74,158,255,0.12)]">
-          <img src="/avatars/xiaoyunyun.png" alt="小云云" className="w-full h-full object-cover" />
+          <img src="/avatars/xiaoyiyi.png" alt="小忆" className="w-full h-full object-cover" />
         </div>
       )}
       <div className={`max-w-[80%] p-3 rounded-[var(--radius-md)] ${

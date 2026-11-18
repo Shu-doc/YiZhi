@@ -19,7 +19,7 @@ const en = {
 
   // Top bar (v2)
   'topbar.searchPlaceholder': 'Search notes... ⌘K',
-  'topbar.assistant': "Hi, I'm YUNYUN ~",
+  'topbar.assistant': "Hi, I'm XIAOYI ~",
   'topbar.userMenu': 'User menu',
 
   // Global search (v2 phase 4)
@@ -33,7 +33,7 @@ const en = {
   'gsearch.searchFailed': 'Search failed. Please retry later (network or external service issue)',
 
   // AI assistant panel (v2)
-  'assistant.title': "Hi, I'm YUNYUN ~",
+  'assistant.title': "Hi, I'm XIAOYI ~",
   'assistant.subtitle': 'Based on your notes knowledge base, I can help you:',
   'assistant.viewChat': 'Chat',
   'assistant.viewHistory': 'History',

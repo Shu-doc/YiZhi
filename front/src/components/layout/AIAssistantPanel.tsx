@@ -278,9 +278,9 @@ export default function AIAssistantPanel({ isVisible, view, onViewChange, onClos
         }}
       >
         <div className="flex items-center gap-3 mb-2.5">
-          {/* 小云云角色头像（白色圆环） */}
+          {/* 小忆角色头像（白色圆环） */}
           <div className="w-10 h-10 rounded-full overflow-hidden shrink-0 ring-2 ring-white/30">
-            <img src="/avatars/xiaoyunyun.png" alt="小云云" className="w-full h-full object-cover" />
+            <img src="/avatars/xiaoyiyi.png" alt="小忆" className="w-full h-full object-cover" />
           </div>
           <div className="flex-1 min-w-0">
             <h3 className="text-base font-bold text-[var(--color-assistant-header-text)]">{t('assistant.title')}</h3>
@@ -376,7 +376,7 @@ export default function AIAssistantPanel({ isVisible, view, onViewChange, onClos
                     {/* 头像光晕背景 */}
                     <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#4a9eff]/20 to-[#4a9eff]/5 blur-xl" />
                     <div className="relative w-20 h-20 rounded-full overflow-hidden ring-2 ring-[#4a9eff]/20 ring-offset-2 ring-offset-[var(--color-assistant-bg)]">
-                      <img src="/avatars/xiaoyunyun.png" alt="小云云" className="w-full h-full object-cover" />
+                      <img src="/avatars/xiaoyiyi.png" alt="小忆" className="w-full h-full object-cover" />
                     </div>
                   </div>
                   <h2 className="text-xl font-bold mb-1.5 bg-gradient-to-r from-[#1a2a4a] to-[#4a9eff] bg-clip-text text-transparent">{t('assistant.emptyTitle')}</h2>
