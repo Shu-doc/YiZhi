@@ -15,7 +15,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
   FileText, MessageSquare, BookOpen, Library,
-  Settings, Info, LogOut, Trash2, Presentation, Coins,
+  Settings, Info, LogOut, Trash2, Coins,   // Presentation 随 PPT 入口一起临时移除
 } from 'lucide-react';
 import { useUserStore } from '../../stores/useUserStore';
 import { authApi } from '../../api/auth';
@@ -49,7 +49,8 @@ const navItems: NavItem[] = [
   //（AIAssistantPanel 头部 History 视图切换按钮，功能不变）
   { key: 'review', to: '/review', panelType: 'review', icon: BookOpen, labelKey: 'nav.review' },
   { key: 'knowledge', to: '/knowledge', panelType: 'knowledge', icon: Library, labelKey: 'nav.knowledge' },
-  { key: 'ppt', to: '/ppt-templates', panelType: 'ppt', icon: Presentation, labelKey: 'nav.ppt_templates' },
+  // PPT 模板入口临时关闭（2026-11-18），恢复时取消下一行注释并重新引入 Presentation 图标
+  // { key: 'ppt', to: '/ppt-templates', panelType: 'ppt', icon: Presentation, labelKey: 'nav.ppt_templates' },
   { key: 'recycle', to: '/recycle-bin', panelType: 'recycle-bin', icon: Trash2, labelKey: 'nav.recycle_bin' },
 ];
 

@@ -503,7 +503,7 @@ export default function AIAssistantPanel({ isVisible, view, onViewChange, onClos
                 {t('chat.noteRef')}
               </button>
 
-              {/* PPT 模板按钮 */}
+              {/* PPT 模板按钮（临时关闭 2026-11-18，恢复时取消下面整段注释）
               <button
                 onClick={() => chat.setShowTemplatePicker((v) => !v)}
                 className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg border text-xs font-medium transition-colors ${
@@ -516,6 +516,7 @@ export default function AIAssistantPanel({ isVisible, view, onViewChange, onClos
                 <Presentation size={14} />
                 {t('chat.pptTemplate')}
               </button>
+              */}
 
               {/* 选择面板（absolute 锚定布局，浮层内正常展示） */}
               <div className="relative">
