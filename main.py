@@ -1,5 +1,5 @@
 """
-RAG LearnLittle — 智能笔记助手 · 应用入口
+YiZhi — 智能笔记助手 · 应用入口
 
 FastAPI 应用的生命周期管理：
 - 启动阶段：加载环境变量、初始化数据库、连接 Redis、后台初始化模型
@@ -276,7 +276,7 @@ async def lifespan(app: FastAPI):
     """
     # ===== 启动阶段 =====
     logger.info("=" * 50)
-    logger.info("RAG LearnLittle 启动中...")
+    logger.info("YiZhi 启动中...")
     logger.info("=" * 50)
 
     # 0. 安全校验：JWT_SECRET 必须是强随机值（公开默认密钥直接拒绝启动）
@@ -380,7 +380,7 @@ async def _create_test_user():
 
 # 创建 FastAPI 应用
 app = FastAPI(
-    title="RAG LearnLittle",
+    title="YiZhi",
     description="AI 驱动的个人知识管理工具 — 智能笔记助手 API",
     version="1.0.0",
     lifespan=lifespan,

@@ -40,7 +40,7 @@ export default function TopBar({ assistantVisible, onToggleAssistant, onGlobalSe
         <div className="w-8 h-8 rounded-lg bg-[var(--color-accent)] flex items-center justify-center text-white font-bold text-sm select-none">
           云
         </div>
-        <span className="font-heading text-base font-bold text-[var(--color-text)]">云尚</span>
+        <span className="font-heading text-base font-bold text-[var(--color-text)]">忆知</span>
       </div>
 
       {/* 居中：全局搜索入口（按钮形态，点击唤起模态框；移动端只显示图标） */}

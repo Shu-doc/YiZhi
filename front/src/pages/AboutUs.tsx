@@ -20,12 +20,12 @@ export default function AboutUs() {
             <BookOpen size={20} className="text-white" />
           </div>
           <div>
-            <h2 className="text-lg font-bold text-[var(--color-text)]">RAG LearnLittle</h2>
+            <h2 className="text-lg font-bold text-[var(--color-text)]">YiZhi</h2>
             <p className="text-xs text-[var(--color-text-tertiary)]">智能笔记助手 v1.0.0</p>
           </div>
         </div>
         <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
-          RAG LearnLittle 是一款基于 RAG（检索增强生成）技术的智能笔记应用。
+          YiZhi 是一款基于 RAG（检索增强生成）技术的智能笔记应用。
           它结合了笔记管理、AI 对话、知识库和艾宾浩斯遗忘曲线回顾等功能，
           帮助用户高效记录、组织和回顾知识，让学习更加科学、智能。
         </p>

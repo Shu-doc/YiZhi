@@ -1,11 +1,11 @@
 <div align="center">
 
-# ☁️ 云尚 · RAG LearnLittle
+# 🧠 忆知 · YiZhi
 
 **AI 驱动的个人知识管理助手 —— 让笔记拥有记忆，让对话理解一切**
 
-![GitHub stars](https://img.shields.io/github/stars/Shu-doc/RAG_LearnLittleCode?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Shu-doc/RAG_LearnLittleCode?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Shu-doc/YiZhi?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Shu-doc/YiZhi?style=social)
 
 `RAG` `Agent` `多模态` `FastAPI` `LangGraph` `React`
 
@@ -24,7 +24,7 @@
 
 ## 📖 项目简介
 
-**云尚** 是一款基于 **RAG（检索增强生成）** 的 AI 智能笔记助手。它以你的笔记为知识库，支持 **ReAct / Plan-and-Execute 双 Agent 编排模式**（共享同一套工具集）、**深度思考**、**图片 / 视频多模态理解**，并提供笔记模板、回收站、邮件发送、Token 用量追踪等完整工具链 —— 从记录知识到提取知识，一站式完成。
+**忆知** 是一款基于 **RAG（检索增强生成）** 的 AI 智能笔记助手。它以你的笔记为知识库，支持 **ReAct / Plan-and-Execute 双 Agent 编排模式**（共享同一套工具集）、**深度思考**、**图片 / 视频多模态理解**，并提供笔记模板、回收站、邮件发送、Token 用量追踪等完整工具链 —— 从记录知识到提取知识，一站式完成。
 
 > 🎯 定位：本地优先的私人知识助手。支持 DashScope（阿里云百炼）与 Ollama（完全本地）双模型提供商一键切换。
 
@@ -128,8 +128,8 @@
 ### 1️⃣ 配置后端
 
 ```bash
-# 克隆项目（仓库名 RAG_LearnLittleCode，克隆目录同名）
-git clone https://github.com/Shu-doc/RAG_LearnLittleCode.git && cd RAG_LearnLittleCode
+# 克隆项目（仓库名 YiZhi，克隆目录同名）
+git clone https://github.com/Shu-doc/YiZhi.git && cd YiZhi
 
 # 创建虚拟环境并安装依赖
 python -m venv .venv
@@ -305,7 +305,7 @@ docker compose up -d --build
 ## 📁 项目结构
 
 ```
-RAG_LearnLittleCode/          # 本地目录名可自由修改
+YiZhi/          # 本地目录名可自由修改
 ├── main.py                  # FastAPI 入口（生命周期 / 中间件 / 路由注册）
 ├── app/
 │   ├── core/                # 日志、异常处理、model_trace、scheduler
@@ -408,4 +408,4 @@ npm run build     # tsc --noEmit + vite build（tsconfig 已开启 strict）
 
 本项目基于 **MIT 协议**开源：允许自由使用、修改与分发，需保留版权声明。
 
-> 🔗 仓库：[RAG_LearnLittleCode](https://github.com/Shu-doc/RAG_LearnLittleCode.git) · 📚 [更多设计文档](docs/)
+> 🔗 仓库：[YiZhi](https://github.com/Shu-doc/YiZhi.git) · 📚 [更多设计文档](docs/)

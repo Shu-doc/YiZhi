@@ -80,7 +80,7 @@ class EmailService:
         self.smtp_port = int(config.get("SMTP_PORT") or os.getenv("SMTP_PORT", "587"))
         self.smtp_username = config.get("SMTP_USERNAME") or os.getenv("SMTP_USERNAME", "")
         self.smtp_password = config.get("SMTP_PASSWORD") or os.getenv("SMTP_PASSWORD", "")
-        self.smtp_from_name = config.get("SMTP_FROM_NAME") or os.getenv("SMTP_FROM_NAME", "云尚")
+        self.smtp_from_name = config.get("SMTP_FROM_NAME") or os.getenv("SMTP_FROM_NAME", "忆知")
         self.template_path = (
             Path(__file__).resolve().parent.parent.parent
             / "templates" / "email" / "verification_code.html"

@@ -1,4 +1,4 @@
-# ========== RAG LearnLittle 前端镜像（构建 + nginx 托管） ==========
+# ========== YiZhi 前端镜像（构建 + nginx 托管） ==========
 # 构建: docker build -t raglearn-front ./front
 #
 # 可选构建参数:

@@ -95,7 +95,7 @@ const zh = {
   'auth.noAccount': '还没有账号？',
   'auth.hasAccount': '已有账号？',
   // 认证页（视觉与交互）
-  'auth.brand': '云尚笔记',
+  'auth.brand': '忆知笔记',
   'auth.panelFooter': '记录 · 思考 · 沉淀',
   'auth.loginSubtitle': '请输入你的账号信息',
   'auth.registerSubtitle': '创建账号，开始记录',

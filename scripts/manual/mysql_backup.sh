@@ -18,7 +18,7 @@
 #
 # 定时执行:
 #   Linux: crontab -e 添加  "30 2 * * * cd /path/to/project && bash scripts/manual/mysql_backup.sh"
-#   Windows: 任务计划程序 → 新建任务 → 操作指向 Git Bash: "C:\Program Files\Git\bin\bash.exe" -lc "cd /c/Users/xxx/RagLearnCode && bash scripts/manual/mysql_backup.sh"
+#   Windows: 任务计划程序 → 新建任务 → 操作指向 Git Bash: "C:\Program Files\Git\bin\bash.exe" -lc "cd /c/Users/xxx/YiZhi && bash scripts/manual/mysql_backup.sh"
 #   Docker: 在 mysql 容器外执行本脚本（需宿主机装 mysql 客户端），或另起定时容器挂载数据卷
 # ============================================================
 set -euo pipefail

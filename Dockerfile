@@ -1,4 +1,4 @@
-# ========== RAG LearnLittle 后端镜像（多阶段构建） ==========
+# ========== YiZhi 后端镜像（多阶段构建） ==========
 # 构建: docker build -t raglearn-backend .
 #
 # 国内服务器构建加速（可选；也可写进 .env 的 PIP_INDEX_URL，由 compose 自动透传）:
