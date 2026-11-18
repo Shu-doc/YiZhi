@@ -522,11 +522,13 @@ def create_agent_tools(
             return "邮件服务未初始化，请联系管理员"
         try:
             attachments = None
+            # 附件文件名清洗（提到 f-string 外面：Python 3.11 及以下不允许 f-string 表达式里含反斜杠）
+            safe_subject = re.sub(r'[\\\\/:*?\"<>|]', '_', subject)
             if format == "pdf":
                 try:
                     pdf_bytes = email_service.render_markdown_pdf(subject, body)
                     attachments = [{
-                        "filename": f"{re.sub(r'[\\\\/:*?\"<>|]', '_', subject)}.pdf",
+                        "filename": f"{safe_subject}.pdf",
                         "data": pdf_bytes,
                         "mime": "application/pdf",
                     }]
@@ -536,7 +538,7 @@ def create_agent_tools(
                     format = "md"
             if format == "md":
                 attachments = attachments or [{
-                    "filename": f"{re.sub(r'[\\\\/:*?\"<>|]', '_', subject)}.md",
+                    "filename": f"{safe_subject}.md",
                     "data": body.encode("utf-8"),
                     "mime": "text/markdown",
                 }]
